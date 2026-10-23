@@ -1,0 +1,209 @@
+﻿<krpano>  <scene name="scene_b9f1281e7ab740039ce215c47c0d0ac4" title="Untitled 1" clientCameraType="Floor" autoload="true" thumburl="PanoThumbnail/17104b8d96e446b9bc269718c27884e8.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="-0.000000" oy="0.000000" oz="0.000000">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/b9f1281e7ab740039ce215c47c0d0ac4/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="0.000000|-0.000000|-0.000000" align="0|-0.000000|0" background="none" backgroundurl="images/b9f1281e7ab740039ce215c47c0d0ac4_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="0.000000|-0.000000|-0.000000" align="0|-0.000000|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="-0.000000" oy="0.000000" oz="0.000000">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/b9f1281e7ab740039ce215c47c0d0ac4/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="0.000000|-0.000000|-0.000000" align="0|-0.000000|0" background="none" backgroundurl="images/b9f1281e7ab740039ce215c47c0d0ac4_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="0.000000|-0.000000|-0.000000" align="0|-0.000000|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_b9f1281e7ab740039ce215c47c0d0ac4_to_db4d2d16c572486c94e223ccb09e995a" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="-175.188444" ty="162.001480" tz="234.142034" depth="0.000000" onclick="hotspot_trans_action(hotspot_b9f1281e7ab740039ce215c47c0d0ac4_to_db4d2d16c572486c94e223ccb09e995a)"/>    <hotspot name="hotspot_b9f1281e7ab740039ce215c47c0d0ac4_to_bb7f3007a3e149e28133eacc54cbafb2" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="141.087915" ty="162.000015" tz="314.544046" depth="0.000000" onclick="hotspot_trans_action(hotspot_b9f1281e7ab740039ce215c47c0d0ac4_to_bb7f3007a3e149e28133eacc54cbafb2)"/>    <hotspot name="hotspot_b9f1281e7ab740039ce215c47c0d0ac4_to_1de8c31b7ca34fb6baf16270b09d483d" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="244.349786" ty="162.001480" tz="520.781393" depth="0.000000" onclick="hotspot_trans_action(hotspot_b9f1281e7ab740039ce215c47c0d0ac4_to_1de8c31b7ca34fb6baf16270b09d483d)"/>    <hotspot name="hotspot_b9f1281e7ab740039ce215c47c0d0ac4_to_2d847360dafb4678a21493a46644ffaa" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="54.814195" ty="162.001480" tz="593.997907" depth="0.000000" onclick="hotspot_trans_action(hotspot_b9f1281e7ab740039ce215c47c0d0ac4_to_2d847360dafb4678a21493a46644ffaa)"/>    <hotspot name="hotspot_b9f1281e7ab740039ce215c47c0d0ac4_to_e5dac1e9fbdc4a41bd9e7d026a47360f" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="295.371036" ty="162.000015" tz="1189.778686" depth="0.000000" onclick="hotspot_trans_action(hotspot_b9f1281e7ab740039ce215c47c0d0ac4_to_e5dac1e9fbdc4a41bd9e7d026a47360f)"/>  </scene>  <scene name="scene_db4d2d16c572486c94e223ccb09e995a" title="Untitled 2" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/3932a89adea642afb4fc894bdae52b38.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="-175.188444" oy="0.000031" oz="234.142034">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/db4d2d16c572486c94e223ccb09e995a/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="175.188444|-0.000031|-234.142034" align="0|294.804352|0" background="none" backgroundurl="images/db4d2d16c572486c94e223ccb09e995a_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="175.188444|-0.000031|-234.142034" align="0|294.804352|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="-175.188444" oy="0.000031" oz="234.142034">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/db4d2d16c572486c94e223ccb09e995a/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="175.188444|-0.000031|-234.142034" align="0|294.804352|0" background="none" backgroundurl="images/db4d2d16c572486c94e223ccb09e995a_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="175.188444|-0.000031|-234.142034" align="0|294.804352|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_db4d2d16c572486c94e223ccb09e995a_to_b9f1281e7ab740039ce215c47c0d0ac4" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="-0.000000" ty="162.001480" tz="0.000000" depth="0.000000" onclick="hotspot_trans_action(hotspot_db4d2d16c572486c94e223ccb09e995a_to_b9f1281e7ab740039ce215c47c0d0ac4)"/>    <hotspot name="hotspot_db4d2d16c572486c94e223ccb09e995a_to_bb7f3007a3e149e28133eacc54cbafb2" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="141.087915" ty="162.000015" tz="314.544046" depth="0.000000" onclick="hotspot_trans_action(hotspot_db4d2d16c572486c94e223ccb09e995a_to_bb7f3007a3e149e28133eacc54cbafb2)"/>  </scene>  <scene name="scene_bb7f3007a3e149e28133eacc54cbafb2" title="Untitled 3" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/3e08f9b60c554cd48c9f2d1c25e441b9.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="141.087915" oy="0.000015" oz="314.544046">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/bb7f3007a3e149e28133eacc54cbafb2/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-141.087915|-0.000015|-314.544046" align="0|-19.079573|0" background="none" backgroundurl="images/bb7f3007a3e149e28133eacc54cbafb2_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-141.087915|-0.000015|-314.544046" align="0|-19.079573|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="141.087915" oy="0.000015" oz="314.544046">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/bb7f3007a3e149e28133eacc54cbafb2/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-141.087915|-0.000015|-314.544046" align="0|-19.079573|0" background="none" backgroundurl="images/bb7f3007a3e149e28133eacc54cbafb2_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-141.087915|-0.000015|-314.544046" align="0|-19.079573|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_bb7f3007a3e149e28133eacc54cbafb2_to_b9f1281e7ab740039ce215c47c0d0ac4" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="-0.000000" ty="162.001480" tz="0.000000" depth="0.000000" onclick="hotspot_trans_action(hotspot_bb7f3007a3e149e28133eacc54cbafb2_to_b9f1281e7ab740039ce215c47c0d0ac4)"/>    <hotspot name="hotspot_bb7f3007a3e149e28133eacc54cbafb2_to_db4d2d16c572486c94e223ccb09e995a" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="-175.188444" ty="162.001480" tz="234.142034" depth="0.000000" onclick="hotspot_trans_action(hotspot_bb7f3007a3e149e28133eacc54cbafb2_to_db4d2d16c572486c94e223ccb09e995a)"/>    <hotspot name="hotspot_bb7f3007a3e149e28133eacc54cbafb2_to_1de8c31b7ca34fb6baf16270b09d483d" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="244.349786" ty="162.001480" tz="520.781393" depth="0.000000" onclick="hotspot_trans_action(hotspot_bb7f3007a3e149e28133eacc54cbafb2_to_1de8c31b7ca34fb6baf16270b09d483d)"/>  </scene>  <scene name="scene_1de8c31b7ca34fb6baf16270b09d483d" title="Untitled 4" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/a444258d04f24a2db59d6050c0fa5207.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="244.349786" oy="0.000015" oz="520.781393">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/1de8c31b7ca34fb6baf16270b09d483d/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-244.349786|-0.000015|-520.781393" align="0|54.403137|0" background="none" backgroundurl="images/1de8c31b7ca34fb6baf16270b09d483d_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-244.349786|-0.000015|-520.781393" align="0|54.403137|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="244.349786" oy="0.000015" oz="520.781393">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/1de8c31b7ca34fb6baf16270b09d483d/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-244.349786|-0.000015|-520.781393" align="0|54.403137|0" background="none" backgroundurl="images/1de8c31b7ca34fb6baf16270b09d483d_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-244.349786|-0.000015|-520.781393" align="0|54.403137|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_1de8c31b7ca34fb6baf16270b09d483d_to_b9f1281e7ab740039ce215c47c0d0ac4" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="-0.000000" ty="162.001480" tz="0.000000" depth="0.000000" onclick="hotspot_trans_action(hotspot_1de8c31b7ca34fb6baf16270b09d483d_to_b9f1281e7ab740039ce215c47c0d0ac4)"/>    <hotspot name="hotspot_1de8c31b7ca34fb6baf16270b09d483d_to_bb7f3007a3e149e28133eacc54cbafb2" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="141.087915" ty="162.000015" tz="314.544046" depth="0.000000" onclick="hotspot_trans_action(hotspot_1de8c31b7ca34fb6baf16270b09d483d_to_bb7f3007a3e149e28133eacc54cbafb2)"/>    <hotspot name="hotspot_1de8c31b7ca34fb6baf16270b09d483d_to_2d847360dafb4678a21493a46644ffaa" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="54.814195" ty="162.001480" tz="593.997907" depth="0.000000" onclick="hotspot_trans_action(hotspot_1de8c31b7ca34fb6baf16270b09d483d_to_2d847360dafb4678a21493a46644ffaa)"/>  </scene>  <scene name="scene_2d847360dafb4678a21493a46644ffaa" title="Untitled 5" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/ad69b122c6784636be926d557ddad6e8.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="54.814195" oy="0.000015" oz="593.997907">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/2d847360dafb4678a21493a46644ffaa/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-54.814195|-0.000015|-593.997907" align="0|68.878738|0" background="none" backgroundurl="images/2d847360dafb4678a21493a46644ffaa_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-54.814195|-0.000015|-593.997907" align="0|68.878738|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="54.814195" oy="0.000015" oz="593.997907">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/2d847360dafb4678a21493a46644ffaa/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-54.814195|-0.000015|-593.997907" align="0|68.878738|0" background="none" backgroundurl="images/2d847360dafb4678a21493a46644ffaa_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-54.814195|-0.000015|-593.997907" align="0|68.878738|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_2d847360dafb4678a21493a46644ffaa_to_b9f1281e7ab740039ce215c47c0d0ac4" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="-0.000000" ty="162.001480" tz="0.000000" depth="0.000000" onclick="hotspot_trans_action(hotspot_2d847360dafb4678a21493a46644ffaa_to_b9f1281e7ab740039ce215c47c0d0ac4)"/>    <hotspot name="hotspot_2d847360dafb4678a21493a46644ffaa_to_1de8c31b7ca34fb6baf16270b09d483d" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="244.349786" ty="162.001480" tz="520.781393" depth="0.000000" onclick="hotspot_trans_action(hotspot_2d847360dafb4678a21493a46644ffaa_to_1de8c31b7ca34fb6baf16270b09d483d)"/>    <hotspot name="hotspot_2d847360dafb4678a21493a46644ffaa_to_1f0153ca31464561bbd459e509273572" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="-229.111117" ty="162.000015" tz="575.557575" depth="0.000000" onclick="hotspot_trans_action(hotspot_2d847360dafb4678a21493a46644ffaa_to_1f0153ca31464561bbd459e509273572)"/>    <hotspot name="hotspot_2d847360dafb4678a21493a46644ffaa_to_94dcd6b38d77491181906fd483189ef3" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="302.506686" ty="162.000015" tz="687.893345" depth="0.000000" onclick="hotspot_trans_action(hotspot_2d847360dafb4678a21493a46644ffaa_to_94dcd6b38d77491181906fd483189ef3)"/>    <hotspot name="hotspot_2d847360dafb4678a21493a46644ffaa_to_3593a9e5f9ba4c3ba598469b7e6b0aff" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="255.176916" ty="162.000015" tz="872.037204" depth="0.000000" onclick="hotspot_trans_action(hotspot_2d847360dafb4678a21493a46644ffaa_to_3593a9e5f9ba4c3ba598469b7e6b0aff)"/>  </scene>  <scene name="scene_1f0153ca31464561bbd459e509273572" title="Untitled 6" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/dc073ad4709e478aac6290210e20e107.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="-229.111117" oy="0.000015" oz="575.557575">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/1f0153ca31464561bbd459e509273572/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="229.111117|-0.000015|-575.557575" align="0|288.818054|0" background="none" backgroundurl="images/1f0153ca31464561bbd459e509273572_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="229.111117|-0.000015|-575.557575" align="0|288.818054|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="-229.111117" oy="0.000015" oz="575.557575">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/1f0153ca31464561bbd459e509273572/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="229.111117|-0.000015|-575.557575" align="0|288.818054|0" background="none" backgroundurl="images/1f0153ca31464561bbd459e509273572_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="229.111117|-0.000015|-575.557575" align="0|288.818054|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_1f0153ca31464561bbd459e509273572_to_2d847360dafb4678a21493a46644ffaa" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="54.814195" ty="162.001480" tz="593.997907" depth="0.000000" onclick="hotspot_trans_action(hotspot_1f0153ca31464561bbd459e509273572_to_2d847360dafb4678a21493a46644ffaa)"/>  </scene>  <scene name="scene_94dcd6b38d77491181906fd483189ef3" title="Untitled 7" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/e16e7b6d726b41e89e705b2934ab8912.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="302.506686" oy="0.000000" oz="687.893345">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/94dcd6b38d77491181906fd483189ef3/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-302.506686|-0.000000|-687.893345" align="0|94.597473|0" background="none" backgroundurl="images/94dcd6b38d77491181906fd483189ef3_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-302.506686|-0.000000|-687.893345" align="0|94.597473|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="302.506686" oy="0.000000" oz="687.893345">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/94dcd6b38d77491181906fd483189ef3/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-302.506686|-0.000000|-687.893345" align="0|94.597473|0" background="none" backgroundurl="images/94dcd6b38d77491181906fd483189ef3_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-302.506686|-0.000000|-687.893345" align="0|94.597473|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_94dcd6b38d77491181906fd483189ef3_to_2d847360dafb4678a21493a46644ffaa" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="54.814195" ty="162.001480" tz="593.997907" depth="0.000000" onclick="hotspot_trans_action(hotspot_94dcd6b38d77491181906fd483189ef3_to_2d847360dafb4678a21493a46644ffaa)"/>  </scene>  <scene name="scene_50a074669c8841c3a26cd01810a09d53" title="Untitled 8" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/855026a4e8b0491daf548af77e6f1783.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="-34.045474" oy="0.000000" oz="1012.680751">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/50a074669c8841c3a26cd01810a09d53/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="34.045474|-0.000000|-1012.680751" align="0|191.467056|0" background="none" backgroundurl="images/50a074669c8841c3a26cd01810a09d53_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="34.045474|-0.000000|-1012.680751" align="0|191.467056|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="-34.045474" oy="0.000000" oz="1012.680751">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/50a074669c8841c3a26cd01810a09d53/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="34.045474|-0.000000|-1012.680751" align="0|191.467056|0" background="none" backgroundurl="images/50a074669c8841c3a26cd01810a09d53_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="34.045474|-0.000000|-1012.680751" align="0|191.467056|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if></scene>  <scene name="scene_3593a9e5f9ba4c3ba598469b7e6b0aff" title="Untitled 9" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/fa84a6f9c90748efbe6c27ad106ddd95.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="255.176916" oy="0.000015" oz="872.037204">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/3593a9e5f9ba4c3ba598469b7e6b0aff/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-255.176916|-0.000015|-872.037204" align="0|253.271759|0" background="none" backgroundurl="images/3593a9e5f9ba4c3ba598469b7e6b0aff_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-255.176916|-0.000015|-872.037204" align="0|253.271759|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="255.176916" oy="0.000015" oz="872.037204">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/3593a9e5f9ba4c3ba598469b7e6b0aff/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-255.176916|-0.000015|-872.037204" align="0|253.271759|0" background="none" backgroundurl="images/3593a9e5f9ba4c3ba598469b7e6b0aff_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-255.176916|-0.000015|-872.037204" align="0|253.271759|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_3593a9e5f9ba4c3ba598469b7e6b0aff_to_2d847360dafb4678a21493a46644ffaa" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="54.814195" ty="162.001480" tz="593.997907" depth="0.000000" onclick="hotspot_trans_action(hotspot_3593a9e5f9ba4c3ba598469b7e6b0aff_to_2d847360dafb4678a21493a46644ffaa)"/>    <hotspot name="hotspot_3593a9e5f9ba4c3ba598469b7e6b0aff_to_c99fc0015b33442fbcd2dd86ae11d077" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="375.785511" ty="162.000015" tz="816.489615" depth="0.000000" onclick="hotspot_trans_action(hotspot_3593a9e5f9ba4c3ba598469b7e6b0aff_to_c99fc0015b33442fbcd2dd86ae11d077)"/>    <hotspot name="hotspot_3593a9e5f9ba4c3ba598469b7e6b0aff_to_e5dac1e9fbdc4a41bd9e7d026a47360f" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="295.371036" ty="162.000015" tz="1189.778686" depth="0.000000" onclick="hotspot_trans_action(hotspot_3593a9e5f9ba4c3ba598469b7e6b0aff_to_e5dac1e9fbdc4a41bd9e7d026a47360f)"/>  </scene>  <scene name="scene_c99fc0015b33442fbcd2dd86ae11d077" title="Untitled 10" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/39bbf900245c44828ae12176ff7252ca.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="375.785511" oy="0.000000" oz="816.489615">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/c99fc0015b33442fbcd2dd86ae11d077/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-375.785511|-0.000000|-816.489615" align="0|326.842499|0" background="none" backgroundurl="images/c99fc0015b33442fbcd2dd86ae11d077_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-375.785511|-0.000000|-816.489615" align="0|326.842499|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="375.785511" oy="0.000000" oz="816.489615">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/c99fc0015b33442fbcd2dd86ae11d077/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-375.785511|-0.000000|-816.489615" align="0|326.842499|0" background="none" backgroundurl="images/c99fc0015b33442fbcd2dd86ae11d077_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-375.785511|-0.000000|-816.489615" align="0|326.842499|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_c99fc0015b33442fbcd2dd86ae11d077_to_3593a9e5f9ba4c3ba598469b7e6b0aff" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="255.176916" ty="162.000015" tz="872.037204" depth="0.000000" onclick="hotspot_trans_action(hotspot_c99fc0015b33442fbcd2dd86ae11d077_to_3593a9e5f9ba4c3ba598469b7e6b0aff)"/>  </scene>  <scene name="scene_e5dac1e9fbdc4a41bd9e7d026a47360f" title="Untitled 11" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/0b66be5f263448be8384ddaedb5de815.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="295.371036" oy="0.000015" oz="1189.778686">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/e5dac1e9fbdc4a41bd9e7d026a47360f/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-295.371036|-0.000015|-1189.778686" align="0|153.218964|0" background="none" backgroundurl="images/e5dac1e9fbdc4a41bd9e7d026a47360f_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-295.371036|-0.000015|-1189.778686" align="0|153.218964|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="295.371036" oy="0.000015" oz="1189.778686">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/e5dac1e9fbdc4a41bd9e7d026a47360f/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-295.371036|-0.000015|-1189.778686" align="0|153.218964|0" background="none" backgroundurl="images/e5dac1e9fbdc4a41bd9e7d026a47360f_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-295.371036|-0.000015|-1189.778686" align="0|153.218964|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_e5dac1e9fbdc4a41bd9e7d026a47360f_to_b9f1281e7ab740039ce215c47c0d0ac4" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="-0.000000" ty="162.001480" tz="0.000000" depth="0.000000" onclick="hotspot_trans_action(hotspot_e5dac1e9fbdc4a41bd9e7d026a47360f_to_b9f1281e7ab740039ce215c47c0d0ac4)"/>    <hotspot name="hotspot_e5dac1e9fbdc4a41bd9e7d026a47360f_to_3593a9e5f9ba4c3ba598469b7e6b0aff" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="255.176916" ty="162.000015" tz="872.037204" depth="0.000000" onclick="hotspot_trans_action(hotspot_e5dac1e9fbdc4a41bd9e7d026a47360f_to_3593a9e5f9ba4c3ba598469b7e6b0aff)"/>    <hotspot name="hotspot_e5dac1e9fbdc4a41bd9e7d026a47360f_to_93abc314ec17417b8b480c1673570714" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="493.182392" ty="162.000015" tz="1112.930547" depth="0.000000" onclick="hotspot_trans_action(hotspot_e5dac1e9fbdc4a41bd9e7d026a47360f_to_93abc314ec17417b8b480c1673570714)"/>  </scene>  <scene name="scene_93abc314ec17417b8b480c1673570714" title="Untitled 12" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/10038b0106b04ed8935ba8f4215d51ca.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="493.182392" oy="0.000031" oz="1112.930547">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/93abc314ec17417b8b480c1673570714/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-493.182392|-0.000031|-1112.930547" align="0|92.740662|0" background="none" backgroundurl="images/93abc314ec17417b8b480c1673570714_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-493.182392|-0.000031|-1112.930547" align="0|92.740662|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="493.182392" oy="0.000031" oz="1112.930547">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/93abc314ec17417b8b480c1673570714/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-493.182392|-0.000031|-1112.930547" align="0|92.740662|0" background="none" backgroundurl="images/93abc314ec17417b8b480c1673570714_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-493.182392|-0.000031|-1112.930547" align="0|92.740662|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_93abc314ec17417b8b480c1673570714_to_e5dac1e9fbdc4a41bd9e7d026a47360f" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="295.371036" ty="162.000015" tz="1189.778686" depth="0.000000" onclick="hotspot_trans_action(hotspot_93abc314ec17417b8b480c1673570714_to_e5dac1e9fbdc4a41bd9e7d026a47360f)"/>    <hotspot name="hotspot_93abc314ec17417b8b480c1673570714_to_b7dc8b2a83514f76ba110bf82ffd1750" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="445.712036" ty="162.000015" tz="1014.255959" depth="0.000000" onclick="hotspot_trans_action(hotspot_93abc314ec17417b8b480c1673570714_to_b7dc8b2a83514f76ba110bf82ffd1750)"/>  </scene>  <scene name="scene_b7dc8b2a83514f76ba110bf82ffd1750" title="Untitled 13" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/5e4ce11965424d87be81fc92775a1c65.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="445.712036" oy="0.000000" oz="1014.255959">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/b7dc8b2a83514f76ba110bf82ffd1750/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-445.712036|-0.000000|-1014.255959" align="0|221.051590|0" background="none" backgroundurl="images/b7dc8b2a83514f76ba110bf82ffd1750_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-445.712036|-0.000000|-1014.255959" align="0|221.051590|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="445.712036" oy="0.000000" oz="1014.255959">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/b7dc8b2a83514f76ba110bf82ffd1750/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="-445.712036|-0.000000|-1014.255959" align="0|221.051590|0" background="none" backgroundurl="images/b7dc8b2a83514f76ba110bf82ffd1750_bg.jpg"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="-445.712036|-0.000000|-1014.255959" align="0|221.051590|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_b7dc8b2a83514f76ba110bf82ffd1750_to_93abc314ec17417b8b480c1673570714" url="res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="493.182392" ty="162.000015" tz="1112.930547" depth="0.000000" onclick="hotspot_trans_action(hotspot_b7dc8b2a83514f76ba110bf82ffd1750_to_93abc314ec17417b8b480c1673570714)"/>  </scene></krpano>
